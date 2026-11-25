@@ -6,6 +6,8 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, X } from "lucide-react";
 import { getListingById } from "@/lib/listings";
 
+export const dynamic = 'force-dynamic';
+
 export default async function MessageHostPage(
   props: PageProps<"/book/[id]/message">
 ) {

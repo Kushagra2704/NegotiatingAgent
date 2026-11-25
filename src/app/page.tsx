@@ -6,6 +6,8 @@ import CategoryPills from "@/components/CategoryPills";
 import ListingCard from "@/components/ListingCard";
 import { getListings } from "@/lib/listings";
 
+export const dynamic = 'force-dynamic';
+
 export default async function HomePage() {
   const allListings = await getListings();
 

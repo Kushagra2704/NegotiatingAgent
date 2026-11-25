@@ -7,6 +7,8 @@ import { supabaseAdmin } from "@/lib/supabaseAdmin";
 import { getRazorpay } from "@/lib/razorpay";
 import SmartBottomNav from "@/components/SmartBottomNav";
 
+export const dynamic = 'force-dynamic';
+
 type BookingStatus = "pending" | "confirmed" | "cancelled" | "completed";
 
 const STATUS_CONFIG: Record<BookingStatus, { label: string; color: string; icon: React.ReactNode }> = {

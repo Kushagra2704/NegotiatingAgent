@@ -9,6 +9,8 @@ import { getListingById, getImages } from "@/lib/listings";
 import NegotiateChat from "./NegotiateChat";
 import type { Turn } from "@/lib/database.types";
 
+export const dynamic = 'force-dynamic';
+
 export default async function ActiveNegotiationPage(
   props: PageProps<"/negotiate/[id]">
 ) {

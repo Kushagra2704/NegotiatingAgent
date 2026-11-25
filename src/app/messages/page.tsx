@@ -8,6 +8,8 @@ import { supabaseAdmin } from "@/lib/supabaseAdmin";
 import SmartBottomNav from "@/components/SmartBottomNav";
 import FilterPills from "@/components/FilterPills";
 
+export const dynamic = 'force-dynamic';
+
 type NegStatus = "active" | "accepted" | "rejected" | "expired" | "walked_away";
 
 const STATUS_LABEL: Record<NegStatus, { label: string; color: string }> = {

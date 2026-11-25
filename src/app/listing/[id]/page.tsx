@@ -6,6 +6,8 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, Share2, Heart, Star, Shield } from "lucide-react";
 import { getListingById, getImages, getAmenities } from "@/lib/listings";
 
+export const dynamic = 'force-dynamic';
+
 export default async function ListingDetailPage(
   props: PageProps<"/listing/[id]">
 ) {

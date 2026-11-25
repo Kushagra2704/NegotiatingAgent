@@ -6,6 +6,8 @@ import { notFound } from "next/navigation";
 import { X, Star } from "lucide-react";
 import { getListingById, getImages } from "@/lib/listings";
 
+export const dynamic = 'force-dynamic';
+
 export default async function BookReviewPage(props: PageProps<"/book/[id]">) {
   const { id } = await props.params;
   const listing = await getListingById(id);

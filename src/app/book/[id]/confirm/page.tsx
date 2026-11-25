@@ -6,6 +6,8 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, X, ChevronRight, Star } from "lucide-react";
 import { getListingById, getImages } from "@/lib/listings";
 
+export const dynamic = 'force-dynamic';
+
 export default async function ConfirmPayPage(
   props: PageProps<"/book/[id]/confirm">
 ) {

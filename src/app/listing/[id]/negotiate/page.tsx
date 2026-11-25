@@ -4,6 +4,8 @@ import { ArrowLeft } from "lucide-react";
 import { getListingById } from "@/lib/listings";
 import NegotiateSetup from "./NegotiateSetup";
 
+export const dynamic = "force-dynamic";
+
 export default async function NegotiateSetupPage(
   props: PageProps<"/listing/[id]/negotiate">
 ) {

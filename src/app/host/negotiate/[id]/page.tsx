@@ -9,6 +9,8 @@ import { getListingById, getImages } from "@/lib/listings";
 import HostNegotiateChat from "./HostNegotiateChat";
 import type { Turn } from "@/lib/database.types";
 
+export const dynamic = 'force-dynamic';
+
 export default async function HostNegotiatePage(
   props: PageProps<"/host/negotiate/[id]">
 ) {
