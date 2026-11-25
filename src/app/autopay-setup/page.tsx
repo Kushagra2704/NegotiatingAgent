@@ -1,4 +1,3 @@
-export const instant = false;
 
 import AutoPaySetup from "./AutoPaySetup";
 

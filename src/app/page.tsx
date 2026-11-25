@@ -1,4 +1,3 @@
-export const instant = false;
 
 import SmartBottomNav from "@/components/SmartBottomNav";
 import SearchBar from "@/components/SearchBar";
